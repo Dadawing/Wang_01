@@ -1,65 +1,63 @@
-/* CSS RESETS */
 
-/* reset all elements to use border-box sizing */
-*, *::before, *::after {
-    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rozha+One&display=swap');
+
+
+*,*:before, *:after {
+  box-sizing: border-box;
+}
+
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+}
+.container{
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contentbox{
+  width: 350px;
+  height: 200px;
+  margin: 20px;
+  position: relative;
+  display: inline-block;
+  box-shadow: 5px 5px 10px 0px lightgray;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.contentbox h2{
+  color: black;
+  margin: 20px;
+  font-family: "Rozha One", serif;
+  font-weight: 400;
+  font-style: normal;
   }
   
-  /* strip the default margins from these elements */
-  body, h1, h2, h3, h4, p, ul, ol, li, figure, blockquote, dl, dd {
-    margin: 0;
-  }
-  
-  /* make the body element always 100% of the height of the window,
-     and set the line-height to 1.5*/
-  body {
-    min-height: 100vh;
-    line-height: 1.5;
-  }
-  
-  /* make the line-height a bit smaller for these elements to prevent weird spacing */
-  h1, h2, h3, h4, button, input, label {
-    line-height: 1.1;
-  }
-  
-  
-  header {
-  
-  }
-  
-  header h1 {
-  
-  }
-  
-  header h1 a {
-  
-  }
-  
-  header h1 a.current,
-  header h1 a:hover {
-  
-  }
-  
-  
-  nav {
-  
-  }
-  
-  
-  nav ul {
-  
-  }
-  
-  
-  nav ul li {
-  
-  }
-  
-  nav ul li a {
-  
-  }
-  
-  nav ul li a.current,
-  nav ul li a:hover {
-  
-  }
+
+.contentbox p{
+  color: black;
+  margin: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.contentbox h2::after{
+  content: '';
+  background: lightseagreen;
+  width: 80px;
+  height: 4px;
+  position: absolute;
+  left: 5%;
+  bottom: 140px;
+}
+
+.contentbox:hover{
+  scale: 0.97;
+  box-shadow: none;
+}
