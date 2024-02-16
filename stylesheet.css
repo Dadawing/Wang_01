@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   min-height: 100vh;
   line-height: 1.5;
@@ -13,6 +12,7 @@ body {
   justify-content: center;
   background-image: url("IMG3.jpg");
 }
+
 .container{
   width: 100%;
   justify-content: center;
@@ -26,13 +26,13 @@ body {
   margin: 20px;
   position: relative;
   display: inline-block;
-  box-shadow: 5px 5px 10px 0px lightgray;
+  box-shadow: 5px 5px 10px 0px rgb(244, 6, 42);
   border-radius: 10px;
   transition: 0.3s;
 }
 
 .contentbox h2{
-  color: black;
+  color: rgb(172, 221, 176);
   margin: 20px;
   font-family: "Lilita One", sans-serif;
   font-weight: 400;
@@ -40,7 +40,7 @@ body {
 }
 
 .contentbox p{
-  color: black;
+  color: whitesmoke;
   margin: 20px;
   font-family: "Aboreto", system-ui;
   font-weight: 400;
