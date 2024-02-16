@@ -24,17 +24,17 @@ body {
 
 .contentbox{
   width: 350px;
-  height: 200px;
+  height: 250px;
   margin: 20px;
   position: relative;
   display: inline-block;
-  box-shadow: 5px 5px 10px 0px lightgray;
+  box-shadow: 5px 5px 10px 0px rgb(96, 93, 176);
   border-radius: 10px;
   transition: 0.3s;
 }
 
 .contentbox h2{
-  color: black;
+  color: #00a4a6;
   margin: 20px;
   font-family: "Rozha One", serif;
   font-weight: 400;
@@ -43,7 +43,7 @@ body {
   
 
 .contentbox p{
-  color: black;
+  color: #545454;
   margin: 20px;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
