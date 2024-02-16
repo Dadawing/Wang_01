@@ -6,11 +6,15 @@
   box-sizing: border-box;
 }
 
-
 body {
-  min-height: 100vh;
-  line-height: 1.5;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+
+
 .container{
   width: 100%;
   justify-content: center;
