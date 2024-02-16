@@ -1,6 +1,5 @@
-/* CSS RESETS */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rozha+One&display=swap')
-/* reset all elements to use border-box sizing */
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Lilita+One&display=swap');
+
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -9,6 +8,9 @@
 body {
   min-height: 100vh;
   line-height: 1.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .container{
   width: 100%;
@@ -19,7 +21,7 @@ body {
 
 .contentbox{
   width: 350px;
-  height: 200px;
+  height: 300px;
   margin: 20px;
   position: relative;
   display: inline-block;
@@ -31,22 +33,19 @@ body {
 .contentbox h2{
   color: black;
   margin: 20px;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .contentbox p{
   color: black;
   margin: 20px;
+  font-family: "Aboreto", system-ui;
+  font-weight: 400;
+  font-style: normal;  
 }
 
-.contentbox h2::after{
-  content: '';
-  background: lightseagreen;
-  width: 80px;
-  height: 4px;
-  position: absolute;
-  left: 5%;
-  bottom: 140px;
-}
 
 .contentbox:hover{
   scale: 0.97;
